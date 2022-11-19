@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="signin.css">
+
+<html style="background-color: black;">
+    <body>
+        <h1 style="text-align: center; color: tomato;">BookFace</h1>
+        <div>
+            <h1 style = "color: white;" class = "forms"> Log in here: </h1>
+            <input class = "forms" type="text" id="email">
+            <input class = "forms" type="text" id="password">
+            <input class = "forms" type="button" value="submit" onclick="signincheck()">
+            
+
+        </div>
+
+        <script>
+            function signincheck() {
+                var ryanemail = document.getElementById('email').value; 
+                var ryanpassword = document.getElementById('password').value; 
+                if(ryanemail == "ryanreynolds@gmail.com" && ryanpassword == "password") {
+                    window.location.replace("Main.html");
+
+                }
+            }    
+        </script>
+
+
+
+    </body>
+</html>

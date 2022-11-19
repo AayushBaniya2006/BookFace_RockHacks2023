@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(31, 29, 29);
+
+}
+.topHalf{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    border-color: lightgray;
+    z-index: 2;
+}
+
+.topTitle{
+    border-radius: 10px;
+    width: 20%;
+    left: 75vw;
+    background-color: #ff0037;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.lowerHalf{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    background-color: darkgray;
+    border-radius: 5px;
+    left: 76vw;
+    width: 20%;
+}
+
+.changeImage{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 81%;
+    position: sticky;
+
+}
+
+.controls{
+    left:76vw;
+}
+
+.left{
+    position: relative;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    bottom: 5vw;
+    left: 73vw;
+    
+
+}
+.left:active {
+    background-color: hsl(71, 73%, 24%);
+    border-color: #eee;
+  }
+.right{
+    position: relative;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    bottom: 5vw;
+    left: 92vw;
+    
+}
+.right:active {
+    background-color: hsl(71, 73%, 24%);
+    border-color: rgb(255, 0, 0);
+  }
+
+  .sideBar{
+    position: relative;
+    width: 30%;
+    height: 62%;
+    top: 50;
+}
+.divButtons span{
+    top: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ .buttons{
+    
+    width: 15%;
+    height: 5%; 
+    
+    
+ 
+    
+} 
+
+.button {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.topnavbar a   {
+    color: black;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+.topnavbar a.button-active {
+    background-color: black;
+    z-index: 2;
+}
+
+.topnavbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+     z-index: 2;
+}
+.topnavbar a:hover {
+    background: grey;
+    color: black;
+    z-index: 2;
+  }
+
+  .FriendsLeft {
+    position: absolute;
+    margin-left: 10%;
+    top: 100px;
+}
+.FriendsMiddle {
+    position: absolute;
+    margin-left: 46.5%;
+    top: 100px;
+}
+.FriendsRight {
+    position: absolute;
+    margin-left: 80%;
+    top: 100px;
+
+}
+.FriendsT{
+    text-align: center;
+}
+.imgSpacing {
+    margin-top: 40%;
+    margin-bottom: 40%;
+    max-width: 60%;
+    max-height: 60%;
+}
+.person{
+    left:74vw;
+}
+
+.topmainbar a.button-active {
+    background-color: #f64c72;
+    z-index: 2;
+}
+
+.topmainbar {
+    position: relative;
+    right: -35%;
+    top: -250px;
+    
+}
+.topmainbar a:hover {
+    background: #ddd;
+    color: black;
+    z-index: 2;
+}
+
+.topmainbar a   {
+    color: white;
+    padding: 1.5rem;
+    cursor: pointer; 
+    z-index: 2;
+}
+
+
+

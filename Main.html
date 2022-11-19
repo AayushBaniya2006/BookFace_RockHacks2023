@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Suggested.css">
+<script src="./javascript/buttonFunction.js"></script>
+
+<html>
+    <body>
+        <div class="topnavbar">
+            <a class="button-active" href="#HOME"><image src="https://i.imgur.com/wQ0BA5e.png" alt="Home" style="width: 42px; height: 42px;"></image> </a>
+            <a class="button" href="Friends.html"><image src="https://i.imgur.com/k3y9TH2.png" alt="Friends" style="width: 42px; height: 42px;"></image>  </a>
+            <a class="button" href="#REELS"><image src="https://i.imgur.com/ZOEPByO.png" alt="Reels" style="width: 42px; height: 42px;"></image>  </a>
+            <a class="button" href="#MARKETPLACE"><image src="https://i.imgur.com/GzngxPl.png" alt="Marketplace" style="width: 42px; height: 42px;"></image>   </a>
+            <a class="button" href="Profile.html"><image src="https://i.imgur.com/BllqN1I.png" alt="Profile" style="width: 42px; height: 42px;"></image>  </a>
+        </div>
+    </body>
+
+    <body>
+        <div class="topHalf">
+            <h2 class="topTitle">Sponsored</h2>
+            <img class="changeImage" src="https://i.imgur.com/moNIFfi.png" alt="Image" id="changedImage"></img>
+        </div>
+
+        <div class="controls">
+            <button class="left" type="button" onclick="shiftLeft()"></button>
+            <button class="right" type="button" onclick="shiftRight()"></button>
+        </div>
+
+        <div class="lowerHalf">
+            <h2>Contacts</h2>
+           
+                    <img src="https://i.imgur.com/xLEJTTl.jpg" alt="Image" width="40" height="40" >
+                    <p class="paragraph">Bob Marley</p>
+                    <img src="https://i.imgur.com/xLEJTTl.jpg" alt="Image" width="40" height="40" >
+                    <p class="paragraph">Elvis </p>
+                    <img src="https://i.imgur.com/xLEJTTl.jpg" alt="Image" width="40" height="40">
+                    <p class="paragraph">Bob Marley</p>
+                    <img src="https://i.imgur.com/xLEJTTl.jpg" alt="Image" width="40" height="40" >
+                    <p class="paragraph">Bob Marley</p>
+                    <img src="https://i.imgur.com/xLEJTTl.jpg" alt="Image" width="40" height="40" >
+                    <p class="paragraph">Bob Marley</p>
+            
+            
+        </div>
+    </body>
+    
+    
+
+    <body>
+        <div class = "divButtons" style="margin-top: -18%;" style="margin-left: 0;">
+            <button class = "buttons" onclick = "window.location.href='Friends.html';">Friends</button>
+            <button class = "buttons">Groups</button>   
+            <button class = "buttons">Marketplace</button> 
+            <button class = "buttons">Watch</button> 
+            <button class = "buttons">Memories</button> 
+            <button class = "buttons">Ad Center</button> 
+            <button class = "buttons">Ads Manager</button> 
+            <button class = "buttons">Blood Donations</button> 
+            <button class = "buttons">Climate Science Center</button> 
+            <button class = "buttons">Covid-19 Information Center</button> 
+            <button class = "buttons">Crisis Response</button> 
+            <button class = "buttons">Digital Collectibles</button> 
+
+        </div>
+        <div>
+            <img class = "sideBar" src = https://i.imgur.com/cDkHjJW.png style="top:125px; width: 50px; left: 0%; height: 600px;" >
+        </div>     
+        <div class="topmainbar">
+            <a class="button-active" href="#STORIES"> Stories </a>
+            <a class="button" href="#REELS"> Reels </a>
+            <a class="button" href="#Rooms"> Rooms </a>
+        </div>
+
+        <div>
+            <h1 style="color: white; position: absolute; top: 40%; right: 40%;">Whats on your mind?</h1>
+            <input type="text" id="post">
+            <input type="button" value="submit" onclick="post()">
+            <p id="userpost" style="position: absolute; right: 50%; top: 60%; color: white;" > </p>
+            
+        </div>
+
+        <script>
+            function post() {
+                var postcontent = document.getElementById('post').value;
+                document.getElementById("userpost").innerHTML += postcontent += "<br>";
+            }            
+        </script>
+
+
+        <a class="logout" href="signin.html"> Log Out</a>
+    </body>
+</html>

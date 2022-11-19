@@ -1,0 +1,8 @@
+.forms {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -45%;
+    top: 300px;
+    padding: 1.2rem;
+}

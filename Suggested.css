@@ -1,0 +1,248 @@
+body {
+    background-color: rgb(31, 29, 29);
+
+}
+.topHalf{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    border-color: lightgray;
+    left: 76vw;
+     
+}
+
+.topTitle{
+    border-radius: 10px;
+    width: 20%;
+    left: 75vw;
+    background-color: #ff0037;
+    padding: 10px;
+    position: relative;
+     
+}
+
+.lowerHalf{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background-color: darkgray;
+    border-radius: 5px;
+    left: 76vw;
+    width: 20%; 
+}
+
+.lowerHalf button{
+    display: block;
+}
+
+.changeImage{
+    background-color: white;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 81%;
+    position: sticky;
+
+}
+
+.controls{
+    left:76vw;
+}
+
+.left{
+    position: relative;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    bottom: 5vw;
+    left: 73vw;
+     
+    
+
+}
+.left:active {
+    background-color: rgb(109, 109, 107);
+    border-color: #eee;
+     
+  }
+.right{
+    position: relative;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    bottom: 5vw;
+    left: 92vw;
+     
+}
+.right:active {
+    background-color: hsl(71, 73%, 24%);
+    border-color: rgb(255, 0, 0);
+    
+  }
+
+  .sideBar{
+    position: absolute;
+    top: 15%;
+    width: 3%;
+    height: 82%;
+    
+    
+}
+
+.divButtons{
+    top: 0px;
+    left: 0px;
+    cursor:pointer;
+    display:block;
+     
+}
+
+.divButtons button{
+
+    display: block;
+     
+}
+
+ .buttons{
+    top: 0;
+    width: 18%;
+    height: 52px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    color: white;
+    border-color: transparent; 
+} 
+.buttons:hover{
+    background-color: grey;
+}
+
+
+ 
+
+.button {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.buttons:active {
+    background-color: pink;
+}
+
+.topnavbar a   {
+    color: black;
+    padding: 1.3rem;
+    cursor: pointer;
+     
+}
+.topnavbar a.button-active {
+    background-color: black;
+}
+
+.topnavbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.topnavbar a:hover {
+    background: grey;
+    color: black;
+  }
+
+  .FriendsLeft {
+    font-size: large;
+    position: absolute;
+    margin-left: 25%;
+    top: 100px;
+    color: white;
+
+}
+.FriendsMiddle {
+    font-size: large;
+    position: absolute;
+    margin-left: 54.5%;
+    top: 100px;
+    color: white;
+
+}
+.FriendsRight {
+    font-size: large;
+    position: absolute;
+    margin-left: 85%;
+    top: 100px;
+    color: white;
+
+
+}
+.FriendsT{
+    text-align: center;
+}
+.imgSpacing {
+    margin-top: 40%;
+    margin-bottom: 40%;
+    max-width: 60%;
+    max-height: 60%;
+}
+.person{
+    left:74vw;
+}
+
+.topmainbar a.button-active {
+    background-color: #f64c72;
+     
+}
+
+.topmainbar {
+    position: absolute;
+    right: 41%;
+    top: 150px;
+     
+}
+.topmainbar a:hover {
+    background: #ddd;
+    color: black;
+     
+}
+
+.topmainbar a   {
+    color: white;
+    padding: 1.5rem;
+    cursor: pointer; 
+     
+}
+
+.FriendsImg{
+    width: 150px;
+    height: 150px;
+}
+
+.paragraph {
+    color: purple;
+}
+
+input {
+    position: absolute;
+    right: 45%;
+    top: 400px;
+}
+
+.PFPtext{
+    z-index: 4;
+    position: absolute;
+    align-self: center;
+    top: 37vw;
+    left:35vw;
+    border-radius: 50%;
+    color: white;
+}
+
+.logout {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    padding: 10px;
+    background-color: red;
+
+}
+

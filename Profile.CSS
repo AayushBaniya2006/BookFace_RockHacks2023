@@ -1,0 +1,43 @@
+
+.RyanRenolds{
+    position: absolute;
+    left: 25vw;
+    z-index: 2;
+    top: 10vw;
+    flex-grow: 1;
+    
+        
+}
+
+.pfp{
+    z-index: 4;
+    position: absolute;
+    align-self: center;
+    top: 35vw;
+    left:25vw;
+    border-radius: 50%;
+
+    
+}
+
+.allofit{
+    position: absolute;
+    z-index: 1;
+    background-color:black;
+    align-self: center;
+    border-color:black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cheeseToast {
+    position: relative;
+    align-self: flex-end;
+    z-index:3;
+    background-color:black;
+    border-color:black;
+    width: 100vw;
+    height: 50vh;
+
+}
+
